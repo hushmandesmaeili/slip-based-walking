@@ -1,0 +1,17 @@
+load("@rules_foreign_cc//foreign_cc:defs.bzl", "cmake")
+
+# cmake(
+#     name = "libcmaes",
+#     lib_source = "@libcmaes//:all",
+#     out_static_libs = ["libcmaes.a"],
+#     generate_args = [
+#         "-DLIBCMAES_BUILD_PYTHON=ON",
+#         # "-DCMAKE_INSTALL_PREFIX=third-paty/libcmaes",  # Adjust this path as needed
+#     ],
+# )
+
+# Example debug target, assuming libcmaes contains a file named "README.md" or similar.
+filegroup(
+    name = "debug_libcmaes",
+    srcs = ["@libcmaes//:README.md"],
+)
