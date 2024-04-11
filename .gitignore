@@ -1,0 +1,7 @@
+# Ignore Bazel directories
+/bazel-bin
+/bazel-out
+/bazel-testlogs
+/bazel-slip-based-walking
+
+MODULE.bazel.lock
