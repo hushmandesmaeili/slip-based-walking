@@ -1,0 +1,13 @@
+# load("@rules_python//python:defs.bzl", "py_binary")
+
+# py_binary(
+#     name = "slip_simulation",
+#     srcs = [
+#         "slip_simulation_test.py",
+#         "slip_model.py",
+#         "com_traj_plotter.py",
+#     ],
+#     deps = [
+#         # Include dependencies here, if you have any.
+#     ],
+# )
