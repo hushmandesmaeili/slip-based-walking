@@ -5,3 +5,5 @@
 /bazel-slip-based-walking
 
 MODULE.bazel.lock
+
+__pycache__/
